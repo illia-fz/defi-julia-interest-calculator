@@ -1,6 +1,8 @@
 # Compound interest calculator in Julia
 function compound(principal, rate, periods)
     return principal * (1 + rate) ^ periods
+
+# Note: This script calculates compound interest.
 end
 
 # Example usage
